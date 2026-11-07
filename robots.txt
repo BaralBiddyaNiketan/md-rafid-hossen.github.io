@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://baralbiddyaniketan.github.io/rafid.github.io/sitemap.xml
+Sitemap: https://baralbiddyaniketan.github.io/md-rafid-hossen.github.io/sitemap.xml

@@ -124,7 +124,7 @@ gdjs.copyArray(runtimeScene.getObjects("Sponpointt"), gdjs.Untitled_32sceneCode.
 
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
-isConditionTrue_0 = gdjs.evtTools.runtimeScene.getTimerElapsedTimeInSecondsOrNaN(runtimeScene, "Anemy spond") > 1;
+isConditionTrue_0 = gdjs.evtTools.runtimeScene.getTimerElapsedTimeInSecondsOrNaN(runtimeScene, "Anemy spond") > 1.2;
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
 isConditionTrue_0 = gdjs.evtTools.object.pickRandomObject(runtimeScene, gdjs.Untitled_32sceneCode.mapOfGDgdjs_9546Untitled_959532sceneCode_9546GDSponpointtObjects2Objects);
@@ -160,7 +160,7 @@ if (isConditionTrue_0) {
 /* Reuse gdjs.Untitled_32sceneCode.GDAnymeObjects2 */
 gdjs.copyArray(runtimeScene.getObjects("Center"), gdjs.Untitled_32sceneCode.GDCenterObjects2);
 {for(var i = 0, len = gdjs.Untitled_32sceneCode.GDAnymeObjects2.length ;i < len;++i) {
-    gdjs.Untitled_32sceneCode.GDAnymeObjects2[i].addForceTowardObject((gdjs.Untitled_32sceneCode.GDCenterObjects2.length !== 0 ? gdjs.Untitled_32sceneCode.GDCenterObjects2[0] : null), 10, 0);
+    gdjs.Untitled_32sceneCode.GDAnymeObjects2[i].addForceTowardObject((gdjs.Untitled_32sceneCode.GDCenterObjects2.length !== 0 ? gdjs.Untitled_32sceneCode.GDCenterObjects2[0] : null), 13, 0);
 }
 }
 }
@@ -349,7 +349,7 @@ gdjs.copyArray(runtimeScene.getObjects("Gan"), gdjs.Untitled_32sceneCode.GDGanOb
 gdjs.Untitled_32sceneCode.GDBullteObjects3.length = 0;
 
 {for(var i = 0, len = gdjs.Untitled_32sceneCode.GDGanObjects3.length ;i < len;++i) {
-    gdjs.Untitled_32sceneCode.GDGanObjects3[i].getBehavior("FireBullet").Fire((gdjs.Untitled_32sceneCode.GDGanObjects3[i].getPointX("Bulletpoint")), (gdjs.Untitled_32sceneCode.GDGanObjects3[i].getPointY("Bulletpoint")), gdjs.Untitled_32sceneCode.mapOfGDgdjs_9546Untitled_959532sceneCode_9546GDBullteObjects3Objects, (gdjs.Untitled_32sceneCode.GDGanObjects3[i].getAngle()), 200, null);
+    gdjs.Untitled_32sceneCode.GDGanObjects3[i].getBehavior("FireBullet").Fire((gdjs.Untitled_32sceneCode.GDGanObjects3[i].getPointX("Bulletpoint")), (gdjs.Untitled_32sceneCode.GDGanObjects3[i].getPointY("Bulletpoint")), gdjs.Untitled_32sceneCode.mapOfGDgdjs_9546Untitled_959532sceneCode_9546GDBullteObjects3Objects, (gdjs.Untitled_32sceneCode.GDGanObjects3[i].getAngle()), 220, null);
 }
 }
 }
@@ -372,7 +372,7 @@ for (var i = 0, k = 0, l = gdjs.Untitled_32sceneCode.GDGanObjects3.length;i<l;++
 }
 gdjs.Untitled_32sceneCode.GDGanObjects3.length = k;
 if (isConditionTrue_0) {
-{gdjs.evtTools.sound.playSound(runtimeScene, "6d326aaa7459782a48b425e2ff31e4c19473379e431c82cb3c8b3d50fb9540eb_Gun 4.aac", false, 50, 0);
+{gdjs.evtTools.sound.playSound(runtimeScene, "Gun", false, 50, 0);
 }
 }
 

@@ -1,4 +1,4 @@
-gdjs.Untitled_32sceneCode = {};
+﻿gdjs.Untitled_32sceneCode = {};
 gdjs.Untitled_32sceneCode.localVariables = [];
 gdjs.Untitled_32sceneCode.idToCallbackMap = new Map();
 gdjs.Untitled_32sceneCode.GDfloorObjects1= [];
@@ -343,7 +343,7 @@ gdjs.copyArray(runtimeScene.getObjects("playr"), gdjs.Untitled_32sceneCode.GDpla
 
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
-isConditionTrue_0 = gdjs.evtTools.input.isMouseButtonReleased(runtimeScene, "Left");
+isConditionTrue_0 = gdjs.evtTools.input.isMouseButtonPressed(runtimeScene, "Left");
 if (isConditionTrue_0) {
 gdjs.copyArray(runtimeScene.getObjects("Gan"), gdjs.Untitled_32sceneCode.GDGanObjects3);
 gdjs.Untitled_32sceneCode.GDBullteObjects3.length = 0;
@@ -679,3 +679,4 @@ return;
 }
 
 gdjs['Untitled_32sceneCode'] = gdjs.Untitled_32sceneCode;
+
